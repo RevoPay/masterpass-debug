@@ -6,6 +6,8 @@ require_once(realpath(__DIR__ . '/..') . '/vendor/autoload.php');
 // phar file inclusion path
 define('LIB_ROOT', realpath(__DIR__ . '/../lib'));
 
+require_once(LIB_ROOT . '/Parser.php');
+
 require_once(LIB_ROOT . '/MasterCardCoreSDK.phar');
 /*
 Output:
